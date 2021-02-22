@@ -108,3 +108,8 @@
 @media all and (max-width:745px){
     input{width: 100%;}
 }
+@media all and (max-width:450px){
+    .headerLogo p{
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Open Sans',sans-serif;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+header{
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+#toTop {
+    position:fixed;
+    bottom:10px; /* отступ кнопки от нижнего края страницы*/
+    right:10px;
+    cursor:pointer;
+    display:none;
+    }
+.headerLogo{
+    color: #fff;    
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 30px;
+    margin-left: 12%;
+}
+nav{
+    margin-top: 40px;
+    margin-bottom: 14px;
+    margin-left: 29%;
+}
+.topNav a{
+    color: #fff;
+    text-align: center;
+    padding: 12px 16px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.topNav a:hover{
+    border-bottom: 3px solid #fcac45;
+}
+.icon{
+    display: none;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+main .mainWelcome{
+    background-color: black;
+    text-align: center;
+    padding: 200px 0 410px 0;
+}
+ .mainWelcome h1{
+    font-size: 40px;
+    font-weight: 300;
+    color:#676767;
+    
+}
+ .mainWelcome h1 span{
+    color:#fcac45;
+    font-weight: bold;
+}
+ .mainWelcome p{
+    color:#d4d4d4;
+    font-size: 20px;  
+}
+ .mainWelcome p span{
+    font-weight: bold;
+    font-size: 22px;
+}
+.wrapper{
+    width:80%;
+    margin: 0 auto;
+}
+main .mainAbout{
+    display: flex;
+    padding: 100px 0 100px 0;
+}
+.aboutRight{
+    margin-left: 175px;
+}
+.aboutRight h1{
+    display: inline-block;
+    font-weight: normal;
+    border-bottom: 4px solid #fcac45;
+    padding-bottom: 20px;
+}
+.aboutRight h1 span{
+    font-weight: bold;
+}
+.aboutRight p{
+    margin: 31px 0 50px 0;
+    color: #898989;
+}
+.aboutRight ul{
+    font-size: 18px;
+    color: #656565;
+    font-style: oblique;
+}
+.aboutRight ul span{
+    font-weight: bold;
+    color: #5a5a5a;
+    font-style: normal;
+}
+.aboutRight li{
+    background: url(dot.png) 0px no-repeat;
+    padding-left: 25px;
+    margin-bottom: 10px;
+}
+.mainTeam{
+    background-color: black;
+    text-align: center;
+    padding: 100px 0 168px 0;
+    color: #fff;
+}
+.mainTeam h1{
+    font-size: 44px;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+.line{
+    width: 100px;
+    height: 4px;
+    background-color:#fcac45;
+    position: relative;
+    left: 46.4%;
+    margin-bottom: 85px;
+}
+.photo{
+    background-image:url(face1.png);
+    background-size: 125px 125px;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    margin: 20px auto;
+}
+.teamCards{
+    display: flex;
+}
+.name{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 7px;
+}
+.position{
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.description{
+    font-size: 14px;
+}
+.card{
+margin: 0 40px;
+}
+.servicesCards{
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 40px;
+}  
+.mainServices h1{
+    text-align: center;
+    padding: 100px 0 30px 0;
+}
+.mainServices p{
+    color:#9a9a9a;
+    margin-bottom: 100px;
+}
+.servicesCard h4{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.mainClients{
+    background-color: black;
+    padding:100px 0 205px 0;
+    color: white;
+    text-align: center;
+}
+.mainClients h1{
+    margin-bottom: 30px;
+    font-weight: 300;
+    font-size: 44px;
+}
+.mainClients img{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.mainClients h1 span{
+    font-weight: 700;
+}
+.mainTestimonials{
+    background-color: black;
+    color:white;
+    text-align: center;
+    padding-bottom: 170px;
+}
+.mainTestimonials h1{
+    margin-top: 100px;
+    font-size: 44px;
+    margin-bottom: 30px;
+}
+.mainTestimonials h1 span{
+    font-weight: 300;
+}
+.mainTestimonials p{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.paragraph{
+    margin-bottom: 30px;
+}
+.paragraph + p{
+    font-size: 18px;
+    color: #b2b2b2;
+    font-weight: 300;
+}
+.paragraph + p span{
+    font-weight: 600;
+}
+.mainWork{
+    text-align: center;
+    padding: 100px 0 100px 0;
+}
+.mainWork h1{
+    margin-bottom: 30px;
+}
+.mainWork p{
+    margin-bottom: 175px;
+    color:#787878;
+    font-size: 16px;
+}
+
+.mainWork img:hover{
+    opacity: 0.9;
+}
+.contactWrapper{
+    width: 49.5%;
+    margin: 0 auto;
+    color: #636363;
+}
+.red{
+    color: red;
+}
+.formInputs{
+}
+input{
+    width: 360px;
+    height: 40px;
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-top: 5px;
+    resize: vertical;
+}
+textarea{
+    width: 100%;
+    height: 163px;
+    resize: vertical;
+}
+input:first-of-type{
+    margin-right: 23px;
+}
+.buttonBlock{
+    display:flex;
+    justify-content: flex-end;
+}
+input[type=submit]{
+    width: 165px;
+    height: 40px;
+    background-color: #fcac45;
+    color: white;
+    margin-right: 0px;
+    margin-top: 20px;
+}
+h1{
+    text-align: center;
+}
+.contactForm{
+    padding: 100px 0 100px 0;
+}
+.contactForm h1{
+    color: black;
+    margin-bottom: 30px;
+}
+form p{
+    text-align: left;
+}
+.jopa{
+    margin-bottom: 100px;
+    text-align: center;
+}
+h1::after{
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width:100px;
+    padding-top: 30px;
+    border-bottom: 3px solid #fcac45;
+}
+.mainWelcome h1::after{
+    display: none;
+}
+.aboutRight h1::after{
+    display: none;
+}
+.social{
+    display: flex;
+    justify-content: center;
+}
+.social img{
+    margin-left: 12px;
+}
+footer{
+    width: 100%;
+    background-color: black;
+    height: auto;
+    padding: 30px 0 30px 0;
+}
+.social img:hover{
+    opacity: 0.6;
+}
+
+

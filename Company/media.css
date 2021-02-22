@@ -1,0 +1,110 @@
+@media all and (max-width:1025px){
+    .topNav a{
+        display: none;
+    }
+     .topNav a.icon{
+        display:block;
+        float: right;
+        margin-top:-17px;
+        
+        color:#fff;
+        font-size: 25px;
+    }
+    nav{
+        width: 100%;
+    }
+    .topNav.responsive{
+        position: relative;
+        top:50px;
+        left:-200px;
+    }
+    header .topNav.responsive{
+        height: 340px;
+    }
+    .topNav.responsive a.icon{
+        position: absolute;
+        top:-50px;
+        right:-200px;
+    }
+    .topNav.responsive a{
+        float:none;
+        display: block;
+        text-align:left;
+    }
+
+    main .mainWelcome{
+        padding:100px 0 100px 0;
+    }
+    main .mainWelcome h1{
+        font-size: 25px;
+    }
+     main .mainWelcome p{
+        font-size: 15px;
+    }
+    main .mainWelcome p span{
+        font-size: 17px;
+    }
+    .mv100{
+        max-width: 100%;
+
+    }
+    .mainAbout{
+        flex-direction: column;
+    }
+    .aboutLeft{
+        text-align: center;
+    }
+    .aboutRight{
+        text-align: center;
+        margin-left:0;
+    }
+    .aboutRight li{
+        text-align: left;
+    }
+    .aboutRight h1{
+        margin-top: 30px;
+        font-size: 20px;
+    }
+    .teamCards{
+        flex-direction: column;
+    }
+    .servicesCards{
+        grid-template-columns: auto;
+    }
+    .line1 img:not(:first-child){
+        display: none;
+    }
+    .line2 img:not(:first-child){
+        display: none;
+    }
+    .line3 img:not(:first-child){
+        display: none;
+    }
+}
+@media all and (max-width:1484px){
+    nav{margin-left: 20%;}
+    .mainWork img:nth-child(4){
+        display: none;
+    }
+}
+@media all and (max-width:1286px){
+    nav{
+        margin-left: 2%;
+    }
+
+}
+@media all and (max-width:800px){
+    .formInputs{
+        display: flex;
+        flex-direction: column;
+    }
+    .buttonBlock{
+        justify-content: center;
+    }
+    .formInputs + p{
+        width: 100%;
+    }
+}
+@media all and (max-width:745px){
+    input{width: 100%;}
+}

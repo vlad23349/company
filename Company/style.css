@@ -328,7 +328,7 @@ footer{
 .social img:hover{
     opacity: 0.6;
 }
-.teamCards div.card{
+.mainTeam .wrapper .teamCard{
     background-color: black;
 }
 .gallary img{

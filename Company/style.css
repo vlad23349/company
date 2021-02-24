@@ -328,5 +328,15 @@ footer{
 .social img:hover{
     opacity: 0.6;
 }
-
-
+.teamCards div.card{
+    background-color: black;
+}
+.gallary img{
+    vertical-align: 0;
+}
+.carousel-control-prev-icon{
+    display: none;
+}
+.carousel-control-next-icon{
+    display: none;
+}
